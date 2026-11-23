@@ -6,20 +6,20 @@ Gérer le stockage SQLite local.
 ## Contenu
 | Fichier | Rôle |
 |---|---|
-| schema.sql | Schéma prévu |
-| depot.py | Accès SQLite prévu |
+| schema.sql | Tables SQLite de l'application |
+| depot.py | Dépôt SQLite avec requêtes paramétrées et audit |
 
 ## Entrées / Sorties
-Enregistrements applicatifs vers une base locale.
+Modèles validés vers une base SQLite locale ; montants stockés en texte décimal pour préserver leur précision.
 
 ## Règles et décisions
-SQLite via bibliothèque standard. 2026-11-23.
+SQLite via bibliothèque standard. Les créations/modifications de factures et de paramètres légaux sont journalisées dans `audit`. 2026-11-23.
 
 ## Comment tester
 `pytest -q`
 
 ## État d’avancement
-- [x] README de squelette créé — 2026-11-23
+- [x] Schéma et dépôt SQLite implémentés — 2026-11-23
 
 ## Limites connues et prochaines étapes
-Module non implémenté.
+Pas encore de migration de schéma ; le prototype utilise `CREATE TABLE IF NOT EXISTS`.

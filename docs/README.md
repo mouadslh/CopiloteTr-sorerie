@@ -14,7 +14,7 @@ Centraliser le plan, les décisions, le journal, l’architecture et les points 
 | ARCHITECTURE.md | Modules et flux |
 
 ## Entrées / Sorties
-Documentation Markdown ; aucune donnée personnelle.
+Documentation Markdown ; aucune donnée personnelle. PLAN, JOURNAL, DECISIONS et A_VALIDER couvrent maintenant les phases 0 à 2.
 
 ## Règles et décisions
 Les hypothèses issues du prompt sont consignées et restent à confirmer. Mise à jour : 2026-11-23.
@@ -23,7 +23,7 @@ Les hypothèses issues du prompt sont consignées et restent à confirmer. Mise 
 Aucun test automatisé.
 
 ## État d’avancement
-- [x] Créé et renseigné — 2026-11-23
+- [x] Mis à jour après la phase 2 — 2026-11-23
 
 ## Limites connues et prochaines étapes
 Les règles légales sont des hypothèses de cadrage, pas une validation juridique.

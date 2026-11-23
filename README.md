@@ -28,4 +28,4 @@ streamlit run app/ui/tableau_de_bord.py
 
 ## État
 
-Phases 0 et 1 : squelette, documentation et moteur légal initial. Voir [docs/PLAN.md](docs/PLAN.md).
+Phases 0 à 2 : squelette, moteur légal, stockage SQLite, imports CSV/XLSX/UBL, profils payeurs et jeu Atlas fictif. Voir [docs/PLAN.md](docs/PLAN.md).

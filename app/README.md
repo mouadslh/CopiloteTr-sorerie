@@ -25,7 +25,7 @@ Code et noms de fichiers sans accents. 2026-11-23.
 `pytest -q`
 
 ## État d’avancement
-- [x] Squelette créé — 2026-11-23
+- [x] Phases 0 à 2 — modules legal, ingestion, db et payeurs initiaux — 2026-11-23
 
 ## Limites connues et prochaines étapes
-Seul le moteur légal est implémenté en phase 1.
+Simulation, recommandations, courriers, extraction PDF et interface restent à développer.

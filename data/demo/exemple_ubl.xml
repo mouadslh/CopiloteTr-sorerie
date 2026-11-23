@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2"
+ xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+ xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">
+  <cbc:ID>UBL-AT-001</cbc:ID><cbc:IssueDate>2026-11-01</cbc:IssueDate>
+  <cac:AccountingCustomerParty><cac:Party>
+    <cac:PartyName><cbc:Name>Client UBL Fictif</cbc:Name></cac:PartyName>
+    <cac:PartyTaxScheme><cbc:CompanyID>004567890123456</cbc:CompanyID></cac:PartyTaxScheme>
+  </cac:Party></cac:AccountingCustomerParty>
+  <cac:TaxTotal><cbc:TaxAmount currencyID="MAD">200.00</cbc:TaxAmount></cac:TaxTotal>
+  <cac:LegalMonetaryTotal><cbc:TaxExclusiveAmount currencyID="MAD">1000.00</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="MAD">1200.00</cbc:TaxInclusiveAmount></cac:LegalMonetaryTotal>
+  <cac:PaymentTerms><cbc:Note>Delai contractuel 45 jours</cbc:Note></cac:PaymentTerms>
+</Invoice>

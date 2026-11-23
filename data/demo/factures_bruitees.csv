@@ -1,0 +1,3 @@
+numero,client_nom,client_ice,secteur,date_facture,montant_ht,montant_tva,montant_ttc,delai_conventionnel_jours,statut
+AT-BRUIT-HT-TVA,Promoteur Atlas,001234567890123,promotion immobiliere,2026-08-15,150000.00,30000.00,59999.00,90,impayee
+AT-BRUIT-ICE,Hotel Atlas,ICE-INVALIDE,hotellerie,2026-09-01,50000.00,10000.00,60000.00,,impayee

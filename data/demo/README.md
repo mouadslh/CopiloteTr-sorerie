@@ -6,13 +6,14 @@ Contenir les fichiers fictifs produits pour le scénario Menuiserie Atlas.
 ## Contenu
 | Fichier | Rôle |
 |---|---|
-| factures.csv | Factures fictives prévues |
-| paiements.csv | Paiements fictifs prévus |
-| flux_prevus.csv | Flux fictifs prévus |
-| exemple_ubl.xml | Exemple UBL fictif prévu |
+| factures.csv | 15 factures historiques payées et 3 factures Atlas impayées |
+| paiements.csv | 15 paiements historiques associés |
+| flux_prevus.csv | Deux décaissements de novembre 2026 |
+| factures_bruitees.csv | Deux cas de validation invalides, hors jeu principal |
+| exemple_ubl.xml | Exemple UBL fictif |
 
 ## Entrées / Sorties
-CSV/XML générés localement.
+CSV/XML générés localement par `python data/generer_demo.py` ; contenu principal : 35 lignes hors en-têtes.
 
 ## Règles et décisions
 Toutes les données sont fictives. 2026-11-23.
@@ -21,7 +22,7 @@ Toutes les données sont fictives. 2026-11-23.
 `python data/generer_demo.py`
 
 ## État d’avancement
-- [x] README créé — 2026-11-23
+- [x] Jeu fictif généré et vérifié — 2026-11-23
 
 ## Limites connues et prochaines étapes
-Données ajoutées en phase 2.
+Les valeurs ne représentent aucun client réel ; les deux lignes bruitées doivent être rejetées par la validation.
