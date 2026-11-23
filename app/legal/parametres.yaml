@@ -1,0 +1,7 @@
+versions:
+  - effet_a_partir_du: "2026-01-01"
+    delai_defaut_jours: 60
+    plafond_conventionnel_jours: 120
+    plafond_sectoriel_jours: 180
+    taux_directeur: "0.0225"
+    majoration_par_mois_sup: "0.0085"
